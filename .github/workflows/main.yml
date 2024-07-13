@@ -6,8 +6,8 @@ jobs:
     build:
         name: do job1
         runs-on: ubuntu-latest
-        setps:
-        - usus: actions/checkout@v2
+        steps:
+        - uses: actions/checkout@v2
         - name: Run test.py
           run:
             python3 test.py
